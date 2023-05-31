@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.BG {
+  background-image: url("/images/africa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);
+  position: fixed;
+  z-index: -1; /* ajout de cette ligne */
+}
+
+h3 {
+  color: #1da1f2;
+  display: flex;
+}
+
+h1 {
+  color: #e6ecf0;
+}
+
+/* Styles de base pour la barre de navigation */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-right: 15px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+/* Styles pour les liens */
+a {
+  color: #1da1f2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+}
+
+main .center {
+  color: #1da1f2;
+}
+
+p {
+  color: #1da1f2;
+}
+
+li {
+  color: wheat;
+}
+
+.PR {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+}
+
+.recherche {
+  align-content: end;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+
+.list-group-item {
+  color: white;
+  background-color: rgb(197, 193, 193);
+}
+
+.resulta {
+  display: flex;
+}
+
+.menue {
+  display: flex;
+  background-color: black;
+  height: 100%;
+  margin: 0 15px 0 15px;
+}
+
+.log_in {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}/*# sourceMappingURL=style.css.map */
